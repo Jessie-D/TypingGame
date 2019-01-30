@@ -1,10 +1,24 @@
 # 简单打字游戏 
+
+
+## Screenshot
+
+![screenshot](/screenshot/screenshot.png)
+
 ## Getting Started
 
 ```bash
-cnpm install
-//开发
+npm install
+```
+
+### 开发
+
+```bash
 npm start
-//打包
+```
+
+### 打包
+
+```bash
 npm run build
 ```
