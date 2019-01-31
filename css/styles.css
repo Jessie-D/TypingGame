@@ -4,7 +4,10 @@
 }
 
 body {
-	background: #f8f8f8
+	background: url(../timg.jpeg)  no-repeat;
+	background-size: cover;
+	height: -webkit-fill-available;
+	overflow: hidden;
 }
 
 #keyboard {
@@ -307,7 +310,7 @@ ul ol {
 	margin: 3px 5px 4px
 }
 *{margin:0;padding:0;}
-body{background:#434343;overflow:hidden}
+/* body{background:#434343;overflow:hidden} */
 .balloon{
 	position:absolute;
 	left:0;
