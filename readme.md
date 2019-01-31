@@ -3,7 +3,7 @@
 
 ## Screenshot
 
-![screenshot](/screenshot/screenshot.png)
+![screenshot](/screenshot/screenshot.jpg)
 
 ## Getting Started
 
