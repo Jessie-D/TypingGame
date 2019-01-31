@@ -17,14 +17,16 @@
       "index.html",
       "*.js",
       "css/**/*",
+      "./screenshot.ico",
       "node_modules/**/*",
       "package.json"
     ],
     "mac": {
-      "category": "your.app.category.type"
+      "category": "your.app.category.type",
+      "icon": "./screenshot.ico"
     },
     "win": {
-      "icon": ""
+      "icon": "./screenshot.ico"
     }
   }, 
   "author": "GitHub",

@@ -1,5 +1,5 @@
     var num = 100; // 声明遍历num 为气球的数量 
-    var grade = 1; //难度级别
+    var grade = 2; //难度级别
     var score = 0; //分数
     //var oBody = document.querySelector('body');  //h5 api 获取元素的方法
     var oBody=document.documentElement || document.body; //body获取兼容性写法
