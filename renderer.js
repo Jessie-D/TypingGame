@@ -1,5 +1,5 @@
     var num = 100; // 声明遍历num 为气球的数量 
-    var grade = 2; //难度级别
+    var grade = 1; //难度级别
     var score = 0; //分数
     //var oBody = document.querySelector('body');  //h5 api 获取元素的方法
     var oBody=document.documentElement || document.body; //body获取兼容性写法
@@ -20,9 +20,11 @@
                      balloon.innerHTML = '<div id='+result.toString()+' class="letter">'+result.toString()+'</div>';
                      balloon.className='balloon'; //给创建的div元素设置类名
                      balloon.style.left=randomL+'px'; //改变元素的样式中的left的值
-                     balloon.style.top=wH+100+'px';
+                     balloon.style.top=wH+20+'px';
                      oBody.appendChild(balloon); //body中添加 元素对象
+                     grade=2; //速度减慢
                      init(num)
+                     
                 }
                 else {
                     endGame();
@@ -34,11 +36,12 @@
     function endGame(){
         clearTimeout(timer) 
         timer=null 
+        grade=1
         $('#actionBtn').html('再来一局');
         $('#score').html(score);
     }
    
-    $('#actionBtn').click(function(){
+    $('#actionBtn').click(function(){ 
         if(timer==null){
             $('#actionBtn').html('开始'); 
             score = 0;

@@ -17,7 +17,8 @@
       "index.html",
       "*.js",
       "css/**/*",
-      "./screenshot.ico",
+      "timg.jpeg",
+      "screenshot.ico",
       "node_modules/**/*",
       "package.json"
     ],
